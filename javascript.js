@@ -60,7 +60,7 @@ function getOutput(s){
             num2=Number(num);
             console.log(num2);
             let result= operate(num1,opp,num2);
-            display.innerText=result+display.innerText.slice(i,-1);
+            display.innerText=result+display.innerText.slice(i);
     }
   
     
