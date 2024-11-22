@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    min-height: 500px;
+   
+}
+button{
+    min-width: 50px;
+    min-height: 50px;
+    border: solid;
+    background-color: silver;
+}
+.display{
+    font-size: 36px;
+    background-color: aqua;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: solid;
+    min-width: 100px;
+    min-height: 40px;
+}
+.clear_button
+{
+    display: flex;
+    border: solid;
+}
+.backspace
+{
+    display: flex;
+    border: solid;
+}
+.calc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: solid;
+    background-color: blue;
+    
+    
+   
+    }
+.input_area{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: solid;
+}
+.Numbers{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    
+}
+.Operators{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+}
+.operator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    
+}
