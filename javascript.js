@@ -90,6 +90,10 @@ backspace.addEventListener("click",function()
 btns.forEach(function(btn)
 {   
     btn.addEventListener("click",function(e){
+        e.target.classList.add("button-pressed");
+        setTimeout(function() {
+            e.target.classList.remove("button-pressed");
+        }, 100);
         if(display.innerText=="Error")
             display.innerText="";
         if(e.target.innerText!="="&&e.target.innerText!="Clear"&&e.target.innerText!="Backspace"){

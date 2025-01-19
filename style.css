@@ -12,14 +12,19 @@ button{
     border: solid;
     background-color: silver;
 }
+.button-pressed{
+    background-color: black;
+    color: white;
+
+}
 .display{
     font-size: 36px;
     background-color: aqua;
     padding-left: 100px;
     padding-right: 100px;
     border: solid;
-    min-width: 100px;
-    min-height: 40px;
+    width: 100px;
+    height: 40px;
 }
 .clear_button
 {
